@@ -1,4 +1,6 @@
 Daniel-Nolan-CSCI-3308---Lab-3
 ==============================
 
-Git Tutorial
+Daniel Nolan 
+
+Lab 3 - Git Tutorial
