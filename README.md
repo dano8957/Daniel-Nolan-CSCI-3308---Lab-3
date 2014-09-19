@@ -7,5 +7,4 @@ Lab 3 - Git Tutorial
 
 Chris Fanning
 
-more additions
-second addition from website
+This may cause a merge conflict.
