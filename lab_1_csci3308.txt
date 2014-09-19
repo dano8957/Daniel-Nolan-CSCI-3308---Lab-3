@@ -1,0 +1,87 @@
+Chris Fanning
+Catherine Dewerd
+Tommy Gerbhardt
+
+Lab 1:
+date - displays current date and time
+ls -ltr - lists different files in current directory. Shows owner, creator, file size, date last accessed, and filename in order of time of access reversed.
+cd.. - ges up one directory
+pwd - displays current directory
+who - shows number of terminal windows open and their user
+whoami - shows current user
+man man - show online reference manuals
+mkdir - makes directory
+cd directory_name - moves to that directory
+mv old_name new_name - renames directory
+cd - goes to root directory
+cp old_file new_file - copies files
+rm file_name - will remove the file
+rmdir directory_name - removes directory
+more file_name - view contents of file
+less file_name - another way to view contents, does not keep in window
+head file_name - shows beginning of file
+sed file_name - another way to show beginning lines of file
+tail file_name - shows end of a file
+grep "the" file_name - search files for "the"
+find "pwd" -name books.txt
+zip dir.zip file_name(s) - zips file_name into a directory
+unzip dir.zip - unzips file
+tar -cf file_name.tar file_name(s)
+tar -x file_name.tar - extract files
+touch file_name - changes timestamp of file to now
+
+Advanced UNIX Commands
+sort-t":"-k1/etc/passwd - sort by UID
+sort -n-t: -k3 /etc/passwd - sort by uid with only numbers
+sort -n -t":"-k4 /etc/passwd | sort -n-t:-k3 -n - sort first based on GID then UID
+grep -wn "Marx" /etc/passwd
+wc -| file_name - get number of lines in a file
+awk -d : -f1 /etc/passwd
+awk -d : -f4 /etc/passwd |uniq
+awk -d : -f4 /etc/passwd | > tmp
+
+?
+
+Code Attempt
+
+#include <math.h>
+#include <stdio.h>
+
+// Chris Fanning
+//Catherine Dewerd
+//Tommy Gerbhardt
+
+//We tried to decode the given code puzzle into C++. Distinguishing between where the for while and if statements
+belonged in the code in relation to each other was the most difficult part. Declaring where functions such as numbers was also difficult.
+
+int letters(int num){
+
+
+}
+
+int warp(int n){
+    n="PUZZLEITWHATSUPIEOTONTHE%MAPTSEAGLOMOF7S";
+    double num=n;
+    int num;
+    while (num>300){
+    if{
+	while{
+
+	}
+	else{
+		if{
+}
+}
+}
+	for (String letter : letters(num)){
+	    while(num>60){
+		printf(%s letter);
+		num = num/7;
+}
+}
+}
+}
+
+int main(char **argv){
+
+}

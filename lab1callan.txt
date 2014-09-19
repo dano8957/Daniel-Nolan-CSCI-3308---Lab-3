@@ -1,0 +1,42 @@
+Callan Fisher
+27 Aug 2014
+Lab 1
+I liked the lab and enjoyed pair programming!
+
+
+Command
+1:date: prints the date. Wed Aug 27 13:21:28 MDT 2014
+2:ls -ltr: Lists files in the current working directory sorted by time in a long format
+3:cd ..: Goes up one directory
+4:who: Lists the user that is currently logged in
+5:whoami: Prints the current user
+6:man man: The manuel of the manuel
+
+Goals 1
+1:mkdir cs3308 cd$_-to change directories
+2:mv cs3308 csci3308
+3:cd ~
+4:cp path/to/file/<filename> /new/path/<filename>
+5:rm path/tofile/<filename>
+6:mkdir tmp  rmdir
+7:less <filename>
+8:more <filename>
+9:head -(# of lines) <filename>
+10:tail -(# of lines) <filename>
+11:grep "the" <filename>
+12:find `pwd` -name books.txt
+13:zip -r dir.zip /path/for/new/location 
+14:unzip -d tmp
+15:tar -zcvf dir
+16:tar -xvf dir.tat temp/
+17:touch <filename> 
+
+Goals 2
+1:sort -t: -k1 passwd
+2:sort -t: -k3 -n passwd
+3:sort -t: -k4 -n passwd | sort -t: -k3 -n passwd
+4:grep -wn "Marx" passwd 
+5:wc -l passwd
+6:cut -d : -f1 passwd
+7:cut -d : -f4 passwd | uniq 
+8:cut -d : -f4 passwd | > tmp
